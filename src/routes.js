@@ -5,7 +5,7 @@ import Home from './pages/home';
 import CadastroProduto from './pages/produtos/cadastro';
 import ConsultaProdutos from './pages/produtos/consulta';
 
-export default () => {
+const Routes = () => {
   return (
     <HashRouter>
       <Switch>
@@ -16,3 +16,5 @@ export default () => {
     </HashRouter>
   )
 }
+
+export default Routes
